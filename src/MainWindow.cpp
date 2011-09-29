@@ -806,6 +806,7 @@ void MainWindow::compactView(bool enable) {
 
     mediaView->setPlaylistVisible(!enable);
     statusBar()->setVisible(!enable);
+    mainToolBar->setVisible(!enable);
 
 #ifndef APP_MAC
     menuBar()->setVisible(!enable);
